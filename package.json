@@ -1,0 +1,27 @@
+{
+  "name": "aqa_playwright_hw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test:ui": "npx playwright test",
+    "ui-mode": "npx playwright test -- ui"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d-krutko/aqa_playwright_hw.git"
+  },
+  "author": "dina krutko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/d-krutko/aqa_playwright_hw/issues"
+  },
+  "homepage": "https://github.com/d-krutko/aqa_playwright_hw#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.56.0",
+    "@types/node": "^24.7.2",
+    "prettier": "3.6.2",
+    "typescript": "^5.9.3"
+  }
+}
